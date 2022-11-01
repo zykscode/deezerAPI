@@ -109,7 +109,7 @@ export const typeDefs = `#graphql
   }
   type Track{
     "The track's Deezer id"   
-    id: Int
+    id: Int!
     "The track's fulltitle"
     title: String
     "The track's short title	"
